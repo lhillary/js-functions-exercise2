@@ -8,31 +8,23 @@
     const moveForward = function(distance) {
       if (direction === 'N') {
         yposition += distance;
-        ydirection = direction;
       } else if (direction === 'S') {
         yposition -= distance;
-        ydirection = direction;
       } else if (direction === 'E') {
         xposition += distance;
-        xdirection = direction;
       } else if (direction === 'W') {
         xposition -= distance;
-        xdirection = direction;
       } 
     }
     const moveBackward = function(distance) {
       if (direction === 'N') {
         yposition -= distance;
-        ydirection = direction;
       } else if (direction === 'S') {
         yposition += distance;
-        ydirection = direction;
       } else if (direction === 'E') {
         xposition -= distance;
-        xdirection = direction;
       } else if (direction === 'W') {
         xposition += distance;
-        xdirection = direction;
       } 
     }
     const turnRight = function() {
